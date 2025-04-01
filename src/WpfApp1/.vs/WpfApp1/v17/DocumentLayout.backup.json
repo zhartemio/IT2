@@ -1,20 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "H:\\bsuir\\4sem\\ti\\\u0422\u0418_2025\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435 \u21162_\u043F\u043E\u0442\u043E\u043A\u043E\u0432\u043E\u0435_\u0448\u0438\u0444\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\src\\WpfApp1\\",
+  "WorkspaceRootPath": "H:\\bsuir\\lab-ti-2-guzaev\\src\\WpfApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D5ED3DEA-6F0E-42B2-B2BF-BFF266946ECB}|WpfApp1\\WpfApp1.csproj|h:\\bsuir\\4sem\\ti\\\u0442\u0438_2025\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 \u21162_\u043F\u043E\u0442\u043E\u043A\u043E\u0432\u043E\u0435_\u0448\u0438\u0444\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\src\\wpfapp1\\wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D5ED3DEA-6F0E-42B2-B2BF-BFF266946ECB}|WpfApp1\\WpfApp1.csproj|h:\\bsuir\\lab-ti-2-guzaev\\src\\wpfapp1\\wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5ED3DEA-6F0E-42B2-B2BF-BFF266946ECB}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|WpfApp1||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5ED3DEA-6F0E-42B2-B2BF-BFF266946ECB}|WpfApp1\\WpfApp1.csproj|H:\\bsuir\\4sem\\ti\\\u0422\u0418_2025\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435 \u21162_\u043F\u043E\u0442\u043E\u043A\u043E\u0432\u043E\u0435_\u0448\u0438\u0444\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\src\\WpfApp1\\wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{D5ED3DEA-6F0E-42B2-B2BF-BFF266946ECB}|WpfApp1\\WpfApp1.csproj|H:\\bsuir\\lab-ti-2-guzaev\\src\\WpfApp1\\wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D5ED3DEA-6F0E-42B2-B2BF-BFF266946ECB}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5ED3DEA-6F0E-42B2-B2BF-BFF266946ECB}|WpfApp1\\WpfApp1.csproj|h:\\bsuir\\4sem\\ti\\\u0442\u0438_2025\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 \u21162_\u043F\u043E\u0442\u043E\u043A\u043E\u0432\u043E\u0435_\u0448\u0438\u0444\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\src\\wpfapp1\\wpfapp1\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,9 +27,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "H:\\bsuir\\4sem\\ti\\\u0422\u0418_2025\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435 \u21162_\u043F\u043E\u0442\u043E\u043A\u043E\u0432\u043E\u0435_\u0448\u0438\u0444\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\src\\WpfApp1\\WpfApp1\\MainWindow.xaml",
+              "DocumentMoniker": "H:\\bsuir\\lab-ti-2-guzaev\\src\\WpfApp1\\WpfApp1\\MainWindow.xaml",
               "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml",
-              "ToolTip": "H:\\bsuir\\4sem\\ti\\\u0422\u0418_2025\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435 \u21162_\u043F\u043E\u0442\u043E\u043A\u043E\u0432\u043E\u0435_\u0448\u0438\u0444\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\src\\WpfApp1\\WpfApp1\\MainWindow.xaml",
+              "ToolTip": "H:\\bsuir\\lab-ti-2-guzaev\\src\\WpfApp1\\WpfApp1\\MainWindow.xaml",
               "RelativeToolTip": "WpfApp1\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-02-22T11:28:10.338Z",
@@ -42,11 +39,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "H:\\bsuir\\4sem\\ti\\\u0422\u0418_2025\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435 \u21162_\u043F\u043E\u0442\u043E\u043A\u043E\u0432\u043E\u0435_\u0448\u0438\u0444\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\src\\WpfApp1\\WpfApp1\\MainWindow.xaml.cs",
+              "DocumentMoniker": "H:\\bsuir\\lab-ti-2-guzaev\\src\\WpfApp1\\WpfApp1\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml.cs",
-              "ToolTip": "H:\\bsuir\\4sem\\ti\\\u0422\u0418_2025\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435 \u21162_\u043F\u043E\u0442\u043E\u043A\u043E\u0432\u043E\u0435_\u0448\u0438\u0444\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\src\\WpfApp1\\WpfApp1\\MainWindow.xaml.cs",
+              "ToolTip": "H:\\bsuir\\lab-ti-2-guzaev\\src\\WpfApp1\\WpfApp1\\MainWindow.xaml.cs",
               "RelativeToolTip": "WpfApp1\\MainWindow.xaml.cs",
-              "ViewState": "AgIAANAAAAAAAAAAAAA5wOYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAL4AAAAAAAAAAAAqwNoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-22T11:28:09.344Z",
               "EditorCaption": ""
@@ -55,13 +52,12 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "WpfApp1",
-              "DocumentMoniker": "H:\\bsuir\\4sem\\ti\\\u0422\u0418_2025\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435 \u21162_\u043F\u043E\u0442\u043E\u043A\u043E\u0432\u043E\u0435_\u0448\u0438\u0444\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\src\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+              "DocumentMoniker": "H:\\bsuir\\lab-ti-2-guzaev\\src\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
               "RelativeDocumentMoniker": "WpfApp1\\WpfApp1.csproj",
-              "ToolTip": "H:\\bsuir\\4sem\\ti\\\u0422\u0418_2025\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435 \u21162_\u043F\u043E\u0442\u043E\u043A\u043E\u0432\u043E\u0435_\u0448\u0438\u0444\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\src\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+              "ToolTip": "H:\\bsuir\\lab-ti-2-guzaev\\src\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
               "RelativeToolTip": "WpfApp1\\WpfApp1.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-02-23T07:47:26.499Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-23T07:47:26.499Z"
             }
           ]
         }

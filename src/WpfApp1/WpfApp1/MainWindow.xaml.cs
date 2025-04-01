@@ -216,7 +216,7 @@ namespace WpfApp1
             bool[] register = initialState.Select(c => c == '1').ToArray();
 
             // Биты обратной связи для полинома x^28 + x^3 + 1
-            int[] feedbackBits = { 3, 28 };
+            int[] feedbackBits = { 1, 26 }; // -2
 
             // Выходной массив битов
             BitArray keyStream = new BitArray(requiredBits);
