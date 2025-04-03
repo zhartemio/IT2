@@ -1,0 +1,96 @@
+﻿<Window x:Class="IT2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Лабораторная работа 2 ТИ" Height="801" Width="900"
+        MinHeight="450" MinWidth="700"
+        FontFamily="Segoe UI" FontSize="14"
+        WindowStartupLocation="CenterScreen">
+
+    <Window.Resources>
+        <Style x:Key="SectionLabel" TargetType="Label">
+            <Setter Property="HorizontalAlignment" Value="Left" />
+            <Setter Property="Margin" Value="0,5,0,5" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="Padding" Value="0,0,0,5" />
+        </Style>
+
+        <Style x:Key="PrimaryButton" TargetType="Button">
+            <Setter Property="Width" Value="150" />
+            <Setter Property="Height" Value="35" />
+            <Setter Property="Margin" Value="5" />
+            <Setter Property="Background" Value="#0078D7" />
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+        </Style>
+
+        <Style x:Key="FileButton" TargetType="Button" BasedOn="{StaticResource PrimaryButton}">
+            <Setter Property="Width" Value="180" />
+            <Setter Property="FontSize" Value="15" />
+        </Style>
+
+        <Style x:Key="ContentTextBox" TargetType="TextBox">
+            <Setter Property="Margin" Value="0,0,0,10" />
+            <Setter Property="Padding" Value="5" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+            <Setter Property="VerticalScrollBarVisibility" Value="Auto" />
+            <Setter Property="AcceptsReturn" Value="True" />
+        </Style>
+    </Window.Resources>
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- File operations row -->
+        <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,15">
+            <Button Content="Открыть файл" Style="{StaticResource FileButton}" Click="OpenMenuItem_Click"/>
+            <Button Content="Сохранить файл" Style="{StaticResource FileButton}" Click="SaveMenuItem_Click"/>
+        </StackPanel>
+
+        <!-- Register and buttons row -->
+        <StackPanel Grid.Row="1" Margin="0,0,0,15">
+            <Label Content="Состояние регистра (31 состояние):" Style="{StaticResource SectionLabel}" Width="245" HorizontalAlignment="Center"/>
+            <TextBox x:Name="RegisterTextBox" Height="30" Margin="0,0,0,10"/>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Content="Шифровать" Style="{StaticResource PrimaryButton}" Click="Encrypt_Dec_Click"/>
+                <Button Content="Дешифровать" Style="{StaticResource PrimaryButton}" Click="Decrypt_Dec_Click"/>
+                <Button Content="Очистить" Style="{StaticResource PrimaryButton}" Click="Clear_All_Click"/>
+            </StackPanel>
+        </StackPanel>
+
+        <!-- Content area -->
+        <TabControl Grid.Row="2">
+            <TabItem Header="" Margin="949,464,-951,-465">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" MinHeight="195"/>
+                        <RowDefinition Height="157*"/>
+                        <RowDefinition Height="206*"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- Generated key -->
+                    <StackPanel Grid.Row="0" Margin="0,0,0,10">
+                        <Label Content="Сгенерированный ключ:" Style="{StaticResource SectionLabel}" Width="177" HorizontalAlignment="Center"/>
+                        <TextBox x:Name="GeneratedKeyBox" Style="{StaticResource ContentTextBox}" Height="145"/>
+                    </StackPanel>
+
+                    <!-- Source text -->
+                    <StackPanel Grid.Row="1" Margin="0,0,0,7">
+                        <Label Content="Исходный текст:" Style="{StaticResource SectionLabel}" HorizontalAlignment="Center"/>
+                        <TextBox x:Name="SourceTextBox" Style="{StaticResource ContentTextBox}" Height="106"/>
+                    </StackPanel>
+
+                    <!-- Encrypted text -->
+                    <StackPanel Grid.Row="2" Margin="0,0,0,1">
+                        <Label Content="Зашифрованный текст:" Style="{StaticResource SectionLabel}" HorizontalAlignment="Center"/>
+                        <TextBox x:Name="EncryptedTextBox" Style="{StaticResource ContentTextBox}" Height="159"/>
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
